@@ -1,24 +1,26 @@
 # Tic-Tac-Toe
 
-A modern implementation of the classic Tic-Tac-Toe game.
+A collection of Tic-Tac-Toe game implementations in multiple programming languages.
 
 ## Description
 
-This project is a digital version of the classic Tic-Tac-Toe (also known as Noughts and Crosses) game. It provides a simple yet engaging gaming experience where two players take turns marking spaces on a 3×3 grid, with the objective of placing three of their marks in a horizontal, vertical, or diagonal row.
+This repository contains implementations of the classic Tic-Tac-Toe game (also known as Noughts and Crosses) in various programming languages. Each implementation provides a simple yet engaging gaming experience where two players take turns marking spaces on a 3×3 grid, with the objective of placing three of their marks in a horizontal, vertical, or diagonal row. This project serves as both a fun game collection and a learning resource for comparing programming approaches across different languages.
 
 ## Features
 
-- Clean and intuitive user interface
+- Multiple programming language implementations
+- Consistent game rules across all versions
+- Clean and intuitive user interfaces
 - Two-player gameplay on the same device
-- Score tracking
-- Game state persistence
-- Responsive design for various screen sizes
+- Learning resource for comparing programming patterns and idioms
+- Responsive design where applicable
 
 ## Installation
 
 ### Prerequisites
 
-- [List any prerequisites or dependencies here]
+- Requirements vary by implementation language
+- Each language subdirectory has its own specific requirements
 
 ### Setup
 
@@ -28,14 +30,14 @@ This project is a digital version of the classic Tic-Tac-Toe (also known as Noug
    cd tic-tac-toe
    ```
 
-2. Install dependencies:
+2. Navigate to the specific language implementation:
    ```
-   # Add installation commands based on your project's technology stack
+   cd [language-directory]
    ```
 
-3. Start the application:
+3. Follow the README instructions within that language's directory:
    ```
-   # Add startup command based on your project's technology stack
+   # Each language implementation has its own setup and run instructions
    ```
 
 ## Usage
@@ -50,15 +52,30 @@ This project is a digital version of the classic Tic-Tac-Toe (also known as Noug
 
 ```
 tic-tac-toe/
-├── game.sh        - The base game
+├── python/        - Python implementation
+├── javascript/    - JavaScript implementation
+├── java/          - Java implementation
+├── go/            - Go implementation
+├── rust/          - Rust implementation
+├── cpp/           - C++ implementation
+├── [other-langs]/ - Other language implementations
 ├── .gitignore     - Git ignore file
 ├── LICENSE        - MIT License
 └── README.md      - This file
 ```
 
+Each language directory contains its own implementation of the game with language-specific instructions.
+
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. You can contribute by:
+
+- Adding new language implementations
+- Improving existing implementations
+- Standardizing features across implementations
+- Fixing bugs or adding documentation
+
+Contribution steps:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -72,6 +89,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Special thanks to all contributors
+- Special thanks to all contributors across different language implementations
 - Inspiration from classic games
+- The programming community for showcasing different approaches to the same problem
 
